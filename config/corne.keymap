@@ -40,7 +40,7 @@
 &none  &kp AT_SIGN  &kp EXCLAMATION  &kp LEFT_BRACKET      &kp LEFT_BRACE     &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE   &kp RIGHT_BRACKET  &kp GRAVE  &kp HASH       &none
 &none  &kp PERCENT  &kp SEMICOLON    &kp NON_US_BACKSLASH  &kp DOUBLE_QUOTES  &kp COMMA               &kp DOT                &kp SINGLE_QUOTE  &kp SLASH          &kp COLON  &kp BACKSPACE  &none
 &none  &none        &kp UNDERSCORE   &kp LESS_THAN         &kp DOLLAR         &kp PLUS                &kp MINUS              &kp ASTERISK      &kp GREATER_THAN   &kp PIPE   &none          &none
-                                     &none                 &kp LEFT_CONTROL   &none                   &none                  &kp LEFT_ALT      &none
+                                     &mo 2                 &kp LEFT_CONTROL   &none                   &none                  &kp LEFT_ALT      &none
             >;
         };
 
@@ -49,7 +49,7 @@
 &none  &none  &none   &none   &none             &none     &none   &none         &none   &none   &none          &none
 &none  &none  &kp N1  &kp N2  &kp N3            &kp N4    &kp N6  &kp N7        &kp N8  &kp N9  &kp BACKSPACE  &none
 &none  &none  &none   &none   &none             &kp N5    &kp N0  &none         &none   &none   &none          &none
-                      &none   &kp LEFT_CONTROL  &none     &none   &kp LEFT_ALT  &none
+                      &none   &kp LEFT_CONTROL  &none     &none   &kp LEFT_ALT  &mo 1
             >;
         };
 
