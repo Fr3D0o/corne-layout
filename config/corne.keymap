@@ -43,7 +43,7 @@
 &none  &kp Q  &kp W  &kp E                 &kp R                     &kp T                     &kp Y                    &kp U                      &kp I                  &kp O  &kp P          &none
 &none  &kp A  &kp S  &kp D                 &kp F                     &kp G                     &kp H                    &kp J                      &kp K                  &kp L  &kp BACKSPACE  &none
 &none  &none  &kp Z  &hold_tap LEFT_ALT X  &hold_tap LEFT_CONTROL C  &hold_tap LEFT_SHIFT V    &hold_tap RIGHT_SHIFT B  &hold_tap RIGHT_CONTROL N  &hold_tap RIGHT_ALT M  &none  &none          &none
-                     &mo 2                 &kp TAB                   &kp LEFT_GUI              &kp SPACE                &kp ENTER                  &mo 1
+                     &mo 1                 &kp TAB                   &kp LEFT_GUI              &kp SPACE                &kp ENTER                  &mo 2
             >;
         };
 
@@ -52,16 +52,16 @@
 &none  &kp AT_SIGN    &kp EXCLAMATION  &kp LEFT_BRACKET  &kp LEFT_BRACE     &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE   &kp RIGHT_BRACKET  &kp GRAVE  &kp HASH       &none
 &none  &kp PERCENT    &kp SEMICOLON    &kp BACKSLASH     &kp DOUBLE_QUOTES  &kp COMMA               &kp DOT                &kp SINGLE_QUOTE  &kp SLASH          &kp COLON  &kp BACKSPACE  &none
 &none  &kp AMPERSAND  &kp UNDERSCORE   &kp LESS_THAN     &kp DOLLAR         &kp PLUS                &kp MINUS              &kp ASTERISK      &kp GREATER_THAN   &kp PIPE   &none          &none
-                                       &mo 2             &kp LEFT_CONTROL   &none                   &none                  &kp LEFT_ALT      &none
+                                       &mo 1             &none              &none                   &none                  &none             &none
             >;
         };
 
         layer_2 {
             bindings = <
-&none  &none  &none   &none   &none             &none     &none   &none         &none   &none   &none          &none
-&none  &none  &kp N1  &kp N2  &kp N3            &kp N4    &kp N6  &kp N7        &kp N8  &kp N9  &kp BACKSPACE  &none
-&none  &none  &none   &none   &none             &kp N5    &kp N0  &none         &none   &none   &none          &none
-                      &none   &kp LEFT_CONTROL  &none     &none   &kp LEFT_ALT  &mo 1
+&none  &none  &none   &none   &none   &none     &none   &none   &none   &none   &none          &none
+&none  &none  &kp N1  &kp N2  &kp N3  &kp N4    &kp N6  &kp N7  &kp N8  &kp N9  &kp BACKSPACE  &none
+&none  &none  &none   &none   &none   &kp N5    &kp N0  &none   &none   &none   &none          &none
+                      &none   &none   &none     &none   &none   &mo 2
             >;
         };
 
