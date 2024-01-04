@@ -79,22 +79,22 @@
 
         forward_slash {
             bindings = <&kp SLASH>;
-            key-positions = <30 19>;
+            key-positions = <18 7>;
         };
 
         back_slash {
             bindings = <&kp BACKSLASH>;
-            key-positions = <29 16>;
+            key-positions = <17 4>;
         };
 
         less_than {
             bindings = <&kp LESS_THAN>;
-            key-positions = <17 4>;
+            key-positions = <16 29>;
         };
 
         more_than {
             bindings = <&kp GREATER_THAN>;
-            key-positions = <18 7>;
+            key-positions = <30 19>;
         };
 
         dollar {
