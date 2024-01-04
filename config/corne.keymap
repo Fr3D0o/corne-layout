@@ -169,7 +169,7 @@
 
         caret {
             bindings = <&kt CARET>;
-            key-positions = <14 22>;
+            key-positions = <14 21>;
         };
     };
 
